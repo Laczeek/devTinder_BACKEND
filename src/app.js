@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 8080;
 const MONGO_URL = process.env.MONGO_URL;
 
 const app = express();
-app.use(cors({ credentials: true, origin: 'http://localhost:5173' }));
+app.use(cors({ credentials: true, origin: 'http://localhost:80' }));
 app.use(cookieParser());
 app.use(express.json());
 
