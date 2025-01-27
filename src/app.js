@@ -2,6 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import mongoose from 'mongoose';
 import cookieParser from 'cookie-parser';
+import './utils/crontasks.js';
 
 import authenticationMiddleware from './middlewares/authentication-middleware.js';
 import errorMiddleware from './middlewares/error-middleware.js';
