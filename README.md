@@ -16,7 +16,7 @@
 -   Email: [patryk.popiela01@gmail.com](mailto:patryk.popiela01@gmail.com)
 -   GitHub: [Laczeek](https://github.com/Laczeek)
 
-## Backend
+## Frontend
 
 [Check out the frontend repository](https://github.com/Laczeek/devTinder_FRONTEND)
 
@@ -31,6 +31,6 @@ NODE_ENV=development
 SECRET_KEY=<SECRET KEY FOR JWT>
 ```
 -   Run npm run dev
-
+---
 ### Hosted on AWS EC2 instance
 
